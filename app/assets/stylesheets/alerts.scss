@@ -209,7 +209,6 @@
 
   .alerts-group-item {
     background-color: transparent;
-
     > a {
       color: #030303;
       cursor: pointer;
@@ -219,8 +218,7 @@
       padding-right: 5px;
       text-decoration: none;
       transition: 250ms;
-
-      &::before {
+      &:before {
         content: '\f107';
         display: block;
         font-family: FontAwesome;

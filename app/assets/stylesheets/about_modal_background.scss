@@ -3,11 +3,10 @@
 /* 'About' modal background image */
 
 .about-modal-pf {
-  background-color: $modal-about-pf-bg-color;
+  background-color: $modal-about-pf-bg-color
   background-image: image-url($modal-about-pf-bg-img);
 }
-
-.about-modal-pf.whitelabel {
+.about-modal-pf.whitelabel{
   background-image: image-url($img-bg-login-whitelabel);
   background-size: 100% 100%;
 }
